@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fortofolio</title>
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+
+<body>
+    <!-- header Start -->
+    <header class="bg-slate-600 absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#Home" class="font-bold text-2xl text-sky-400 block py-6">Agung Budiawan</a>
+                </div>
+                <div class="flex items-center">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 desktop:hidden">
+                        <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+                    </button>
+                    <nav id="nav-menu"
+                        class="hidden absolute py-5 bg-slate-600 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full desktop:block desktop:static desktop:bg-transparent desktop:max-w-full desktop:shadow-none desktop:rounded-none">
+                        <ul class="block desktop:flex">
+                            <li class="group">
+                                <a href="#Home"
+                                    class="text-base font-bold text-sky-400 py-2 mx-8 flex group-hover:text-sky-400">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#Hobi"
+                                    class="text-base font-bold text-sky-400 py-2 mx-8 flex group-hover:text-sky-400">Hobby</a>
+                            </li>
+                            <li class="group">
+                                <a href="#Skill"
+                                    class="text-base font-bold text-sky-400 py-2 mx-8 flex group-hover:text-sky-400">Skill</a>
+                            </li>
+                            <li class="group">
+                                <a href="#Project"
+                                    class="text-base font-bold text-sky-400 py-2 mx-8 flex group-hover:text-sky-400">Project</a>
+                            </li>
+                            <li class="group">
+                                <a href="#Contact"
+                                    class="text-base font-bold text-sky-400 py-2 mx-8 flex group-hover:text-sky-400">Contact
+                                    Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header End -->
+
+    <!-- mulai hero section -->
+    <section id="Home" class="pt-32 pb-16 bg-slate-200">
+        <div class="container mx-auto px-6">
+            <div class="w-full px-4">
+                <div class="max-w-xs mx-auto text-center mb-6">
+                    <img src="dist/img/agung.jpg" alt="a"
+                        class="max-w-[80px] rounded-full translate-x-28">
+                    <h1 class="font-bold text-sky-500 text-3xl">About Me</h1>
+                    <h2 class="font-semibold text-lg text-slate-500">Agung Budiawan</h2>
+                    <h4 class="font-semibold text-base text-slate-500">IT Support</h4>
+                </div>
+                <div class="max-w-lg mx-auto text-center">
+                    <p class="text-slate-500">Hey, my name agung, i am happy in computer repair especially in the hardware section and i also know enough about information systems for the future my hope is to be able to describe and create artificial intelligence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero end -->
+    <!-- bagian hobby -->
+    <section id="Hobi" class="pt-10 pb-16">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-2xl mx-auto text-left mb-16">
+                    <h1 class="text-4xl font-bold text-sky-400 text-left">My Hobby</h1>
+                </div>
+            </div>
+            <div class="flex flex-wrap gap-3 justify-center">
+                <div class="max-w-xs lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl shadow-xl overflow-hidden mb-10 hover:bg-slate-200">
+                        <img src="https://source.unsplash.com/360x200?swimming" alt="bernang" class="w-full">
+                        <div class="py-8 px-6 bg-white">
+                            <h3 class="mb-3 font-semibold text-xl text-sky-400">Swimming</h3>
+                            <p class="font-medium text-base text-slate-400">i am very happy in swimming because with swimming we get a challenge in surviving to float in the water</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-xs lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10 hover:bg-slate-200">
+                        <img src="https://source.unsplash.com/360x200?basketball" alt="basket" class="w-full">
+                        <div class="py-8 px-6 bg-white">
+                            <h3 class="mb-3 font-semibold text-xl text-sky-400">Basketball</h3>
+                            <p class="font-medium text-base text-slate-400">in the game of basketball we get knowledge and challenges in defending and attacking from all directions and trying to get the victory by entering the ball</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-xs lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10 hover:bg-slate-200">
+                        <img src="https://source.unsplash.com/360x200?game" alt="gamming" class="w-full">
+                        <div class="py-8 px-6 bg-white">
+                            <h3 class="mb-3 font-semibold text-xl text-sky-400">Play Game</h3>
+                            <p class="font-medium text-base text-slate-400">playing games can train our focus for some people as long as in playing games we are not too excessive can be known that in playing games we will feel relaxed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end hobby -->
+    <!-- awal my skill -->
+    <section id="Skill" class="pt-10 pb-16 bg-slate-200">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-10">
+                    <h1 class="text-4xl font-bold text-sky-400 mb-3">Skill<h1>
+                            <p class="text-base font-semibold text-slate-400">here are the skills I have and in the future I will improve these skills in the hope that they can become a benchmark in my abilities</p>
+                </div>
+            </div>
+            <div class="w-full px-4">
+                <div class="flex flex-wrap items-center justify-center">
+                    <img src="dist/img/HTML5_logo_and_wordmark.svg" alt="html"
+                        class="max-w-[160px] px-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                    <img src="dist/img/CSS3_logo_and_wordmark.svg" alt="html"
+                        class="max-w-[120px] px-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                    <img src="dist/img/java-4-logo-svgrepo-com.svg" alt="html"
+                        class="max-w-[120px] px-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                    <img src="dist/img/Javascript-shield.svg" alt="html"
+                        class="max-w-[120px] px-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir my skill -->
+    <!-- awal my projek -->
+    <section id="Project" class="pt-10 pb-16">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h1 class="text-4xl font-bold text-sky-400 mb-3">My Project</h1>
+                    <p class="text-base font-semibold text-slate-400">following my project in learning programming from the project I got a lot of inspiration in making it because of that I included it in my portfolio</p>
+                </div>
+            </div>
+            <div class="flex flex-wrap justify-center ">
+                <div class="max-w-md mx-auto px-6 lg:w-1/2">
+                    <div class="rounded-xl shadow-lg overflow-hidden mb-10">
+                        <img src="dist/img/progcetak.PNG" alt="progcetak" class="w-full">
+                        <div class="py-8 px-6 bg-white">
+                            <a href="https://github.com/zildan03/program-cetak-label.git" target="_blank"
+                                class="font-medium hover:opacity-50">
+                                <h3 class="mb-3 font-semibold text-xl text-sky-400">Program Cetak Label</h3>
+                            </a>
+                            <p class="font-medium text-base text-slate-400">my first project was done during my internship but in the project it was not fully as desired by the client</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-md mx-auto px-6 lg:w-1/2">
+                    <div class="rounded-xl shadow-lg overflow-hidden mb-10">
+                        <img src="dist/img/portofolio.PNG" alt="My Portofolio" class="w-full">
+                        <div class="py-8 px-6 bg-white">
+                            <a href="#" class="font-medium hover:opacity-50">
+                                <h3 class="mb-3 font-semibold text-xl text-sky-400">Portofolio</h3>
+                            </a>
+                            <p class="font-medium text-base text-slate-400">in this project I just want to know a lot of the features of tailwindcss and in this project it consists of html, css and a little javascript</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir my projek -->
+    <!-- awal footer -->
+    <footer id="Contact" class="bg-black pt-24 pb-12">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-12 font-medium text-slate-300 md:w-1/3">
+                    <h2 class="font-bold text-3xl mb-3">Agung Budiawan</h2>
+                    <h3 class="text-xl font-bold mb-3">Contact Us</h3>
+                    <p class="text-base font-semibold mb-3">agungbudiawan64@gmail.com</p>
+                </div>
+                <div class="w-full px-4 mb-12 font-medium text-slate-300 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-slate-300 mb-3">About Writing</h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#Home" class="inline-block text-base hover:text-sky-400 mb-3">My Portofolio</a>
+                        </li>
+                        <li>
+                            <a href="#Project" class="inline-block text-base hover:text-sky-400 mb-3">Project Terkini</a>
+                        </li>
+                        <li>
+                            <a href="#Hobi" class="inline-block text-base hover:text-sky-400 mb-3">My Hobby</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full pt-10 border-t border-slate-500 ">
+                <div class="flex flex-wrap items-center justify-center mb-5">
+                    <a href="#" target="_blank"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border-slate-300 text-slate-300 hover:bg-sky-400 hover:border-sky-400">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/agung-budiawan-b05a0b12a" target="_blank"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border-slate-300 text-slate-300 hover:bg-sky-400 hover:border-sky-400">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                        </svg>
+                    </a>
+                    <a href="#" target="_blank"
+                        class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border-slate-300 text-slate-300 hover:bg-sky-400 hover:border-sky-400">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="w-full mx-auto">
+                    <p class="font-medium text-xs text-slate-300 text-center">Pembuat Agung Budiawan</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- akhir footer -->
+    <script src="dist/js/script.js"></script>
+</body>
+
+</html>
